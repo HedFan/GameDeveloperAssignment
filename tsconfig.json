@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "mini-signals": ["./node_modules/resource-loader/typings/mini-signals.d.ts"]
+    },
+    "skipLibCheck": true,
+    "lib": ["dom", "ESNext", "WebWorker"]
+  },
+  "outDir": "dist",
+  "include": ["./src/index.ts", "src/**/*.d.ts"]
+}
