@@ -1,0 +1,13 @@
+.idea
+logs
+*.log
+npm-debug.log*
+.lock-wscript
+build/Release
+node_modules/
+dist
+typings/
+*.tsbuildinfo
+.npm
+*.tgz
+stats.html
